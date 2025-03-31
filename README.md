@@ -1,4 +1,5 @@
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+
+https://github.com/2814894078/Causal-NCD/blob/main/Fig%201.png
 
 ​                                  **Figure 1.** The optimization curve of the loss in Eq. (8) .
 
