@@ -74,7 +74,7 @@
 | Harder POSS-6<sup>1</sup> |        building, car,  person,cone-stone,pole,trunk        |
 | Harder POSS-7<sup>2</sup> | bike, fence, traffic-sign, plants, ground, rider, trashcan |
 
-**Table 8:** A more harder splits on SemanticPOSS dataset. The category corresponding to the column where the bolded results are located is the novel class. 
+**Table 8:** Harder splits results on SemanticPOSS dataset. The class corresponding to the column where the bolded results are located is the novel class. 
 
 |           Split           | Method |   bike   |  build.  |   car    |  cone.  |  fence   |  grou.   |  pers.   |  plants  |   pole   |  rider  |  traf.   | trashc. |  trunk   |  Novel   | Known | All  |
 | :-----------------------: | :----: | :------: | :------: | :------: | :-----: | :------: | :------: | :------: | :------: | :------: | :-----: | :------: | :-----: | :------: | :------: | :---: | :--: |
@@ -85,4 +85,26 @@
 | Harder POSS-7<sup>2</sup> |  NOPS  |   6.1    |   71.3   |   35.6   |  21.2   |   3.1    |   42.9   |   44.5   |   26.0   |   24.4   |   0.7   |   0.6    |   0.1   |   24.8   |   11.4   | 37.0  | 23.2 |
 |                           |  DASL  |   26.3   |   82.0   |   51.4   |  18.0   |   10.4   |   40.0   |   67.5   |   32.5   |   31.2   |   0.0   |   6.3    |   0.0   |   11.7   |   16.5   | 44.5  | 29.4 |
 |                           |  Ours  | **29.8** |   88.4   |   56.6   |  22.1   | **29.2** | **49.6** |   71.9   | **41.4** |   34.0   | **8.9** | **10.5** | **4.3** |   17.1   | **24.8** | 48.4  | 35.7 |
+
+
+**Table 9.** Low similarity setting of SemanticPOSS dataset. 
+
+| Split |                        Novel Classes                         |
+| :---: | :----------------------------------------------------------: |
+|   1   | building, fence, cone-stone, pole, traffic-sign, trashcan, ground |
+|   2   |           car, bike, rider, person, trunk, plants            |
+
+
+
+**Table 10.** Low similarity setting results on SemanticPOSS dataset. 
+
+| Split | Method |  Novel   | Known | All  |
+| :---: | :----: | :------: | :---: | :--: |
+|   1   |  NOPS  |   4.1    | 41.4  | 22.8 |
+|       |  DASL  |   12.6   | 45.7  | 29.2 |
+|       |  Ours  | **17.8** | 46.1  | 32.0 |
+|   2   |  NOPS  |   7.4    | 42.8  | 25.1 |
+|       |  DASL  |   18.0   | 50.2  | 34.1 |
+|       |  Ours  | **27.3** | 52.5  | 39.9 |
+
 
