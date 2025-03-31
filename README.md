@@ -1,5 +1,5 @@
 
-<img src="https://github.com/2814894078/Causal-NCD/blob/main/Fig%201.png" width="210px">
+<img src="https://github.com/2814894078/Causal-NCD/blob/main/Fig%201.png" width="600px">
 
 
 ​                                  **Figure 1.** The optimization curve of the loss in Eq. (8) .
