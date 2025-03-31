@@ -1,4 +1,4 @@
-<img src="C:\Users\Administrator\Desktop\Typora笔记\assets\W&B Chart 2025_3_30 18_38_25.png" alt="W&B Chart 2025_3_30 18_38_25" style="zoom:13%;" />
+Fig 1.png
 
 ​                                  **Figure 1.** The optimization curve of the loss in Eq. (8) .
 
