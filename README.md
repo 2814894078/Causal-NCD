@@ -17,17 +17,17 @@
 
 |                       | NOPS  | DASL  | Ours  |
 | --------------------- | ----- | ----- | ----- |
-| Training Time (hours) | 11.41 | 20.76 | 29.69 |
-| Test Time (hours)     | 0.46  | 0.90  | 2.13  |
-| GPU memory (GB)       | 11    | 23.02 | 41.68 |
+| Training Time (hours) | 11.41 | 20.76 | 21.69 |
+| Test Time (hours)     | 0.46  | 0.90  | 1.03  |
+| GPU memory (GB)       | 11    | 23.02 | 23.68 |
 
 **Table 2.** Comparison of computational complexity of different methods on the SemanticKITTI dataset.
 
 |                       | NOPS  | DASL   | Ours   |
 | --------------------- | ----- | ------ | ------ |
-| Training Time (hours) | 28.68 | 153.04 | 221.35 |
-| Test Time (hours)     | 0.98  | 2.56   | 4.42   |
-| GPU memory (GB)       | 18.19 | 34.37  | 53.49  |
+| Training Time (hours) | 28.68 | 153.04 | 160.35 |
+| Test Time (hours)     | 0.98  | 2.56   | 3.22   |
+| GPU memory (GB)       | 18.19 | 34.37  | 35.49  |
 
 
 
