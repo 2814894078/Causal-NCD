@@ -1,15 +1,11 @@
 
 <img src="https://github.com/2814894078/Causal-NCD/blob/main/Fig%201.png" width="600px">
-
-
-​                                  **Figure 1.** The optimization curve of the loss in Eq. (8) .
+​**Figure 1.** The optimization curve of the loss in Eq. (8) .
 
 <img src="https://github.com/2814894078/Causal-NCD/blob/main/Fig%202.jpg" width="1000px" >
-
 **Figure 2.** Distribution plot of the SemanticKITTI、SemanticPOSS and Harder SemanticPOSS dataset. 
 
-![阈值](C:\Users\Administrator\Desktop\Typora笔记\assets\阈值.png)
-
+<img src="https://github.com/2814894078/Causal-NCD/blob/main/Fig%203.png" width="800px" >
 **Figure 3.** The training dynamics of the threshold θ and the mIoU of the novel class segmentation on the SemanticPOSS and SemanticKITTI dataset.
 
 
