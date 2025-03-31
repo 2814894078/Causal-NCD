@@ -1,4 +1,4 @@
-Fig 1.png
+![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
 
 ​                                  **Figure 1.** The optimization curve of the loss in Eq. (8) .
 
