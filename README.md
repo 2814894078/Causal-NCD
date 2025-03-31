@@ -39,7 +39,7 @@
 | DASL   | 45.0 | 30.8   | 11.2 |
 | Ours   | 40.3 | 48.5   | 11.4 |
 
-**Table 4.** SemanticKITTI
+**Table 4.** Detailed results for SemanticKITTI.
 
 | Method | Head | Medium | Tail |
 | ------ | ---- | ------ | ---- |
