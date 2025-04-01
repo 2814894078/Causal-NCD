@@ -5,7 +5,7 @@
 
 <img src="https://github.com/2814894078/Causal-NCD/blob/main/Fig%202.jpg" width="1000px" >
 
-**Figure 2.** Distribution plot of the SemanticKITTI (left)、SemanticPOSS (middle) and Harder SemanticPOSS dataset (right). 
+**Figure 2.** Distribution plot of the Original SemanticKITTI (left), Original SemanticPOSS (middle) and a more challenging setting on the SemanticPOSS dataset we set up (right). 
 
 <img src="https://github.com/2814894078/Causal-NCD/blob/main/Fig%203.png" width="800px" >
 
@@ -13,25 +13,25 @@
 
 
 
-**Table 1.** Comparison of computational complexity of different methods on the SemanticPOSS dataset.
+**Table 1.** Comparison of computational complexity of different methods on the SemanticPOSS dataset. The test time is the time taken by the model to process a single point cloud. 
 
 |                       | NOPS  | DASL  | Ours  |
 | --------------------- | ----- | ----- | ----- |
-| Training Time (hours) | 11.41 | 20.76 | 21.69 |
-| Test Time (hours)     | 0.46  | 0.90  | 1.03  |
-| GPU memory (GB)       | 11    | 23.02 | 23.68 |
+| Training Time (hour) | 11.41 | 20.76 | 21.69 |
+| Test Time (s)     | 0.24  | 0.18  | 0.28  |
+| GPU memory (GB)       | 11.05    | 23.02 | 23.68 |
+| Params (M)       | 37.9    | 37.9 | 42.7 |
 
-**Table 2.** Comparison of computational complexity of different methods on the SemanticKITTI dataset.
+**Table 2.** Comparison of computational complexity of different methods on the SemanticKITTI dataset. The test time is the time taken by the model to process a single point cloud. 
 
 |                       | NOPS  | DASL   | Ours   |
 | --------------------- | ----- | ------ | ------ |
-| Training Time (hours) | 28.68 | 153.04 | 160.35 |
-| Test Time (hours)     | 0.98  | 2.56   | 3.22   |
+| Training Time (hour) | 28.68 | 153.04 | 160.35 |
+| Test Time (s)     | 0.43  | 0.39   | 0.49   |
 | GPU memory (GB)       | 18.19 | 34.37  | 35.49  |
+| Params (M)       | 37.9    | 37.9 | 42.7 |
 
-
-
-**Table 3.** Detailed results for SemanticPOSS.
+**Table 3.** Detailed results for SemanticPOSS. In Split 0, the two classes with the most point clouds (plants and buildings) are head classes, and the remaining two are medium and tail classes. In other splits, the three classes are sorted by size and assigned as head, medium, and tail classes.
 
 | Method | Head | Medium | Tail |
 | ------ | ---- | ------ | ---- |
@@ -39,7 +39,7 @@
 | DASL   | 45.0 | 30.8   | 11.2 |
 | Ours   | 40.3 | 48.5   | 11.4 |
 
-**Table 4.** Detailed results for SemanticKITTI.
+**Table 4.** Detailed results for SemanticKITTI. In each split, the class with the most point clouds is the head, the least is the tail, and the rest are medium.
 
 | Method | Head | Medium | Tail |
 | ------ | ---- | ------ | ---- |
@@ -47,9 +47,16 @@
 | DASL   | 33.8 | 32.2   | 8.5  |
 | Ours   | 31.0 | 33.4   | 11.4 |
 
+**Table 5.** Original SemanticPOSS splits, defined as POSS-nⁱ, where n is the number of novel classes and i is the split index.
 
+|  Split  |         Novel Classes         |
+| :-----: | :---------------------------: |
+| POSS-4⁰ | building, car, ground, plants |
+| POSS-3¹ |      bike, fence, person      |
+| POSS-3² |   pole, traffic-sign, trunk   |
+| POSS-3³ |  cone-stone, rider, trashcan  |
 
-**Table 5.** Original SemanticKITTI splits, defined as KITTI-nⁱ, where n is the number of novel classes and i is the split index.
+**Table 6.** Original SemanticKITTI splits, defined as KITTI-nⁱ, where n is the number of novel classes and i is the split index.
 
 |  Split   |                    Novel Classes                     |
 | :------: | :--------------------------------------------------: |
@@ -58,14 +65,6 @@
 | KITTI-5² | motorcycle, other-vehicle, pole, traffic-sign, truck |
 | KITTI-4³ |       bicycle, bicyclist, motorcyclist, person       |
 
-**Table 6.** Original SemanticPOSS splits, defined as POSS-nⁱ, where n is the number of novel classes and i is the split index.
-
-|  Split  |         Novel Classes         |
-| :-----: | :---------------------------: |
-| POSS-4⁰ | building, car, ground, plants |
-| POSS-3¹ |      bike, fence, person      |
-| POSS-3² |   pole, traffic-sign, trunk   |
-| POSS-3³ |  cone-stone, rider, trashcan  |
 
 **Table 7.** Harder setting of SemanticPOSS dataset.
 
@@ -94,8 +93,7 @@
 |   1   | building, fence, cone-stone, pole, traffic-sign, trashcan, ground |
 |   2   |           car, bike, rider, person, trunk, plants            |
 
-
-
+ 
 **Table 10.** Low similarity setting results on SemanticPOSS dataset. 
 
 | Split | Method |  Novel   | Known | All  |
