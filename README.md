@@ -105,4 +105,10 @@
 |       |  DASL  |   18.0   | 50.2  | 34.1 |
 |       |  Ours  | **32.3** | 52.5  | 42.4 |
 
-
+**Table 11.** Comparison with methods based on foundation models on the SemanticPOSS dataset, where CRP stands for Causal Representation Prototype.
+| method    |  Novel   |   Base   |   All    |
+| :-------- | :------: | :------: | :------: |
+| Uni3D     |   25.8   |   40.3   |   33.1   |
+| Uni3D+CRP |   28.1   |   42.9   |   35.5   |
+| SNOPS     |   30.1   |   38.2   |   36.8   |
+| Our       | **32.5** | **48.7** | **40.6** |
